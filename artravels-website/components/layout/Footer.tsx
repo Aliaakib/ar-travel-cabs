@@ -65,8 +65,8 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} AR TRAVEL CABS By <a href="https://www.linkedin.com/in/bukhari-aliaakib-9056581ab" target="_blank" rel="noopener noreferrer" className="text-[#FFC107] hover:text-white transition-colors">Bukhari Aliaakib</a>. All rights reserved.
+          <p className="text-sm text-gray-400 text-center md:text-left leading-relaxed">
+            &copy; {new Date().getFullYear()} AR TRAVEL CABS. <br className="sm:hidden" /> By <a href="https://www.linkedin.com/in/bukhari-aliaakib-9056581ab" target="_blank" rel="noopener noreferrer" className="text-[#FFC107] hover:text-white transition-colors whitespace-nowrap">Bukhari Aliaakib</a>. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
