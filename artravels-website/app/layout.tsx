@@ -29,6 +29,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${manrope.variable} h-full antialiased`}>
+      <head>
+        <link rel="icon" href="/AR-LOGO.png" type="image/png" sizes="any" />
+      </head>
       <body className="min-h-full flex flex-col font-sans">
         <Navbar />
         <main className="flex-grow flex flex-col">{children}</main>
