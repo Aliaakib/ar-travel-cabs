@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 
 export default function FloatingIcons() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -13,6 +14,7 @@ export default function FloatingIcons() {
     mobile: ""
   });
   const popupRef = useRef<HTMLDivElement>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -145,12 +147,14 @@ export default function FloatingIcons() {
         )}
 
         {/* Book Now Button Floating */}
-        <button 
-          onClick={() => setIsPopupOpen(!isPopupOpen)}
-          className="px-6 py-4 bg-[#FFC107]/90 backdrop-blur-md rounded-full flex items-center justify-center text-gray-900 font-bold shadow-[0_4px_12px_rgba(255,193,7,0.3)] hover:bg-[#FFC107] hover:shadow-[0_6px_16px_rgba(255,193,7,0.4)] hover:scale-105 transition-all uppercase tracking-wide"
-        >
-          Book Now
-        </button>
+        {pathname !== "/packages" && (
+          <button 
+            onClick={() => setIsPopupOpen(!isPopupOpen)}
+            className="px-6 py-4 bg-[#FFC107]/90 backdrop-blur-md rounded-full flex items-center justify-center text-gray-900 font-bold shadow-[0_4px_12px_rgba(255,193,7,0.3)] hover:bg-[#FFC107] hover:shadow-[0_6px_16px_rgba(255,193,7,0.4)] hover:scale-105 transition-all uppercase tracking-wide"
+          >
+            Book Now
+          </button>
+        )}
       </div>
 
       {/* RIGHT SIDE: Call & WhatsApp */}
