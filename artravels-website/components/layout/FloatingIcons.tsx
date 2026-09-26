@@ -137,7 +137,7 @@ export default function FloatingIcons() {
               </div>
 
               <button type="submit" className="w-full py-3 mt-4 bg-[#FFC107] hover:bg-[#FFB300] text-gray-900 font-bold rounded-lg shadow-md transition-all flex items-center justify-center">
-                Search Cabs
+                Book Now
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </button>
             </form>
