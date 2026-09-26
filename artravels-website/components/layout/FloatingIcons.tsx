@@ -72,7 +72,7 @@ export default function FloatingIcons() {
     e.preventDefault();
     const { pickup, drop, date, time, mobile } = formData;
     const text = `*New Booking Request*%0A*Pick Up:* ${pickup}%0A*Drop:* ${drop}%0A*Date:* ${date}%0A*Time:* ${time}%0A*Mobile:* ${mobile}`;
-    window.open(`https://wa.me/917990468872?text=${text}`, "_blank");
+    window.open(`https://wa.me/916351794714?text=${text}`, "_blank");
     setIsPopupOpen(false);
   };
 
@@ -157,7 +157,7 @@ export default function FloatingIcons() {
       <div className="fixed bottom-8 right-6 z-[99] flex flex-col items-center gap-4">
         {/* Phone Icon */}
         <a 
-          href="tel:+917990468872" 
+          href="tel:+916351794714" 
           className="w-14 h-14 bg-[#FF5722]/40 backdrop-blur-md rounded-full flex items-center justify-center text-white shadow-[0_4px_12px_rgba(255,87,34,0.1)] hover:bg-[#FF5722]/70 hover:shadow-[0_6px_16px_rgba(255,87,34,0.2)] hover:scale-110 transition-all"
           aria-label="Call Us"
         >
@@ -168,7 +168,7 @@ export default function FloatingIcons() {
 
         {/* WhatsApp Icon */}
         <a 
-          href="https://wa.me/917990468872" 
+          href="https://wa.me/916351794714" 
           target="_blank"
           rel="noopener noreferrer"
           className="w-16 h-16 bg-[#25D366]/40 backdrop-blur-md rounded-full flex items-center justify-center text-white shadow-[0_4px_12px_rgba(37,211,102,0.1)] hover:bg-[#25D366]/70 hover:shadow-[0_6px_16px_rgba(37,211,102,0.2)] hover:scale-110 transition-all"

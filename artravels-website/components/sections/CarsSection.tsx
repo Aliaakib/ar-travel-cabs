@@ -69,7 +69,7 @@ export default function CarsSection() {
     : carsData.filter(car => car.type === activeFilter);
 
   const handleBooking = (carName: string) => {
-    window.open(`https://wa.me/917990468872?text=I%20want%20to%20book%20the%20${encodeURIComponent(carName)}`, "_blank");
+    window.open(`https://wa.me/916351794714?text=I%20want%20to%20book%20the%20${encodeURIComponent(carName)}`, "_blank");
   };
 
   return (

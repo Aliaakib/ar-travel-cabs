@@ -37,7 +37,7 @@ export default function BookingSection() {
 Please confirm the availability and pricing. Thank you!`;
 
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/917990468872?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/916351794714?text=${encodedMessage}`, '_blank');
   };
 
   return (

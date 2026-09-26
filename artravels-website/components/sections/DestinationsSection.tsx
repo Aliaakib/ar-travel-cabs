@@ -83,7 +83,7 @@ const destinations = [
 
 export default function DestinationsSection() {
   const handleBooking = (title: string) => {
-    window.open(`https://wa.me/917990468872?text=I%20want%20to%20inquire%20about%20${encodeURIComponent(title)}`, "_blank");
+    window.open(`https://wa.me/916351794714?text=I%20want%20to%20inquire%20about%20${encodeURIComponent(title)}`, "_blank");
   };
 
   return (

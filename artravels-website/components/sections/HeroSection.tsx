@@ -65,7 +65,7 @@ export default function HeroSection() {
           </div>
           
           <p className="text-[#061A33] text-lg sm:text-xl lg:text-2xl font-bold mb-8 max-w-xl leading-snug uppercase">
-            BEST CAB SERVICE IN RAJKOT – 24/7 TAXI SERVICE NEAR YOU
+            BEST CAB SERVICE IN AHMEDABAD & RAJKOT – 24/7 TAXI SERVICE NEAR YOU
           </p>
 
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-8 w-full">
@@ -98,11 +98,11 @@ export default function HeroSection() {
             `}} />
             
             <a 
-              href="tel:+917990468872"
+              href="tel:+916351794714"
               className="flex items-center justify-center gap-2 px-6 py-3.5 bg-white border-2 border-gray-200 hover:border-[#FFC107] text-black font-bold rounded-full transition-all text-center shadow-sm text-base"
             >
               <svg className="w-5 h-5 text-[#FFC107]" fill="currentColor" viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 00-1.02.24l-2.2 2.2a15.045 15.045 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/></svg>
-              Call +91 7990 468 872
+              Call +91 6351 794 714
             </a>
             
             <Link 

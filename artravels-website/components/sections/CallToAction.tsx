@@ -16,8 +16,8 @@ export default function CallToAction() {
                Book AR Travel Cabs for dependable airport transfers, city rides, and premium transport across Gujarat — available 24/7.
              </p>
              <div className="flex flex-wrap items-center gap-4">
-               <a href="tel:+917990468872" className="bg-[#061A33] text-white px-8 py-4 rounded-full font-bold hover:bg-black transition-all shadow-lg flex items-center gap-2">
-                 Call +91 7990468872
+               <a href="tel:+916351794714" className="bg-[#061A33] text-white px-8 py-4 rounded-full font-bold hover:bg-black transition-all shadow-lg flex items-center gap-2">
+                 Call +91 6351794714
                </a>
                <a href="#booking" className="border-2 border-[#061A33] text-[#061A33] px-8 py-3.5 rounded-full font-bold hover:bg-[#061A33] hover:text-white transition-all">
                  Book Your Ride

@@ -22,7 +22,7 @@ ${msg || 'No message provided.'}
 
 Thank you!`;
 
-    window.open(`https://wa.me/917990468872?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/916351794714?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
@@ -66,7 +66,7 @@ Thank you!`;
                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                 </div>
                 <h4 className="text-xl font-black text-[#061A33] mb-2">Call Us</h4>
-                <a href="tel:+917990468872" className="text-gray-600 font-medium hover:text-[#FFC107] transition-colors">+91 7990 468 872</a>
+                <a href="tel:+916351794714" className="text-gray-600 font-medium hover:text-[#FFC107] transition-colors">+91 6351 794 714</a>
              </div>
              
              {/* Email */}
