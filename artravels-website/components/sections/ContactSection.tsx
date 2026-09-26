@@ -94,7 +94,7 @@ Thank you!`;
              {/* Map */}
              <div className="h-[400px] lg:h-auto min-h-[400px] lg:min-h-[600px] relative w-full bg-gray-100 order-2 lg:order-1">
                <iframe 
-                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=B/10,%20Street%20Number%203,%20mochinagar%201,%20Karan%20Park,%20Rajkot,%20Gujarat%20360006,%20India+(AR%20Travels)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
+                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=AR%20Travels,%20B/10,%20Street%20Number%203,%20mochinagar%201,%20Karan%20Park,%20Rajkot,%20Gujarat%20360006,%20India&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
                  className="absolute inset-0 w-full h-full" 
                  frameBorder="0" 
                  style={{ border: 0 }} 

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full bg-white lg:min-h-[800px] flex flex-col lg:flex-row lg:items-center overflow-hidden pt-4 lg:pt-0">
+    <section id="hero" className="relative w-full bg-white lg:min-h-[800px] flex flex-col lg:flex-row lg:items-center overflow-hidden pt-4 lg:pt-0">
       
       {/* 
         MOBILE-ONLY TITLE:
@@ -106,7 +106,7 @@ export default function HeroSection() {
             </a>
             
             <Link 
-              href="#booking"
+              href="/booking"
               className="group relative overflow-hidden flex items-center justify-center gap-2 px-8 py-3.5 bg-[#FFC107] hover:bg-[#e0a800] text-black font-bold rounded-full transition-all text-center shadow-md text-base"
             >
               {/* Sliding Sheen */}

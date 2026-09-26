@@ -26,9 +26,9 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-6 text-[#FFC107]">Quick Links</h3>
             <ul className="space-y-3">
               <li><Link href="/" className="text-gray-400 hover:text-white transition-colors text-sm">Home</Link></li>
-              <li><Link href="#about" className="text-gray-400 hover:text-white transition-colors text-sm">About Us</Link></li>
-              <li><Link href="#cars" className="text-gray-400 hover:text-white transition-colors text-sm">Visiting Places</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-white transition-colors text-sm">Contact Us</Link></li>
+              <li><Link href="/about" className="text-gray-400 hover:text-white transition-colors text-sm">About Us</Link></li>
+              <li><Link href="/cars" className="text-gray-400 hover:text-white transition-colors text-sm">Visiting Places</Link></li>
+              <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors text-sm">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -36,10 +36,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-6 text-[#FFC107]">Our Services</h3>
             <ul className="space-y-3">
-              <li><Link href="#services" className="text-gray-400 hover:text-white transition-colors text-sm">Airport Transfers</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-white transition-colors text-sm">Local City Rides</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-white transition-colors text-sm">Outstation Trips</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-white transition-colors text-sm">Corporate Travel</Link></li>
+              <li><Link href="/services" className="text-gray-400 hover:text-white transition-colors text-sm">Airport Transfers</Link></li>
+              <li><Link href="/services" className="text-gray-400 hover:text-white transition-colors text-sm">Local City Rides</Link></li>
+              <li><Link href="/services" className="text-gray-400 hover:text-white transition-colors text-sm">Outstation Trips</Link></li>
+              <li><Link href="/services" className="text-gray-400 hover:text-white transition-colors text-sm">Corporate Travel</Link></li>
             </ul>
           </div>
 
@@ -69,8 +69,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} AR TRAVEL CABS. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <Link href="#privacy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="#terms" className="text-sm text-gray-400 hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>
