@@ -6,6 +6,7 @@ import Footer from "../components/layout/Footer";
 import FloatingIcons from "../components/layout/FloatingIcons";
 import RouteScroller from "../components/layout/RouteScroller";
 import PageTransition from "../components/layout/PageTransition";
+import ScrollProgress from "../components/layout/ScrollProgress";
 
 const manrope = Manrope({
   variable: "--font-sans",
@@ -33,7 +34,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/AR-LOGO.png" type="image/png" sizes="any" />
       </head>
-      <body className="min-h-full flex flex-col font-sans">
+      <body className="min-h-full flex flex-col font-sans relative">
+        <ScrollProgress />
         <Navbar />
         <main className="flex-grow flex flex-col">
           <PageTransition>{children}</PageTransition>
