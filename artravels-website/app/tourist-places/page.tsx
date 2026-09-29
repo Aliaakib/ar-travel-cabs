@@ -64,10 +64,13 @@ export default function TouristPlaces() {
   return (
     <div className="bg-[#F8F9FA] min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-[#061A33] uppercase">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-[#061A33] uppercase tracking-wide">
             Tourist Places
           </h1>
+          <p className="text-gray-500 mt-4 font-medium text-lg max-w-2xl mx-auto">
+            Explore the most popular and beautiful destinations with our comfortable and reliable cab services.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
