@@ -1,5 +1,5 @@
 export default function Marquee() {
-  const textItems = ["WORLDWIDE", "AFFORDABLE", "PREMIUM", "RATES", "CAR", "RENTAL", "24/7", "SERVICE"];
+  const textItems = ["AFFORDABLE", "PREMIUM", "RATES", "CAR", "RENTAL", "24/7", "SERVICE"];
   
   // Create a block of items. We duplicate it below to create a seamless infinite scroll.
   const marqueeContent = textItems.map((item, idx) => (

@@ -71,10 +71,12 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center space-x-12 text-gray-800 font-bold text-base">
             <Link href="/" className={`${pathname === '/' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Home</Link>
-            <Link href="/services" className={`${pathname === '/services' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors flex items-center gap-1`}>Services</Link>
+            {/* <Link href="/services" className={`${pathname === '/services' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors flex items-center gap-1`}>Services</Link> */}
+            <Link href="/tourist-places" className={`${pathname === '/tourist-places' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Tourist Places</Link>
             <Link href="/booking" className={`${pathname === '/booking' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Booking</Link>
             <Link href="/cars" className={`${pathname === '/cars' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Cars</Link>
             <Link href="/packages" className={`${pathname === '/packages' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Packages</Link>
+              <Link href="/reviews" className={`${pathname === '/reviews' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors flex items-center gap-1`}>Reviews</Link>
             <Link href="/contact" className={`${pathname === '/contact' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Contact Us</Link>
           </nav>
 
@@ -100,10 +102,12 @@ export default function Navbar() {
           <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-xl">
             <div className="flex flex-col p-4 space-y-4 text-black font-bold">
               <Link href="/" className={`${pathname === '/' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
-              <Link href="/services" className={`${pathname === '/services' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
+              {/* <Link href="/services" className={`${pathname === '/services' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Services</Link> */}
+              <Link href="/tourist-places" className={`${pathname === '/tourist-places' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Tourist Places</Link>
               <Link href="/booking" className={`${pathname === '/booking' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Booking</Link>
               <Link href="/cars" className={`${pathname === '/cars' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Cars</Link>
               <Link href="/packages" className={`${pathname === '/packages' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Packages</Link>
+               <Link href="/reviews" className={`${pathname === '/reviews' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Reviews</Link>
               <Link href="/contact" className={`${pathname === '/contact' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Contact Us</Link>
               
               <div className="pt-4 border-t border-gray-100 flex flex-col gap-3">
