@@ -19,7 +19,7 @@ export default function HeroSection() {
           WELCOME TO
         </div>
         <h1 className="text-5xl sm:text-6xl font-black leading-[0.95] tracking-tighter">
-          <span className="text-[#061A33]">AR</span><span className="text-[#FFC107]">TRAVELS</span>
+          <span className="bg-gradient-to-r from-[#061A33] to-[#0A2955] text-transparent bg-clip-text">AR</span><span className="bg-gradient-to-r from-[#FFC107] to-[#FFA000] text-transparent bg-clip-text">TRAVELS</span>
         </h1>
       </div>
 
@@ -59,8 +59,8 @@ export default function HeroSection() {
               </svg> */}
               WELCOME TO
             </div>
-            <h1 className="text-[6.5rem] font-black leading-[0.95] tracking-tighter">
-              <span className="text-[#061A33]">AR</span><span className="text-[#FFC107]">TRAVELS</span>
+            <h1 className="text-[6.5rem] font-black leading-[0.95] tracking-tighter hover:scale-[1.01] transition-transform duration-500">
+              <span className="bg-gradient-to-br from-[#061A33] to-[#12396B] text-transparent bg-clip-text drop-shadow-sm">AR</span><span className="bg-gradient-to-br from-[#FFC107] to-[#FF8F00] text-transparent bg-clip-text drop-shadow-sm">TRAVELS</span>
             </h1>
           </div>
           

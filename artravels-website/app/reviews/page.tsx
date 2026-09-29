@@ -29,7 +29,8 @@ export default function ReviewsPage() {
           {reviews.map((review, idx) => (
             <div 
               key={idx} 
-              className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 relative group flex flex-col h-full"
+              className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 relative group flex flex-col h-full animate-stagger"
+              style={{ animationDelay: `${idx * 100}ms` }}
             >
               {/* Dotted background pattern */}
               <div 
@@ -89,11 +90,11 @@ export default function ReviewsPage() {
                href="https://www.google.com/search?sca_esv=a963c435ce01c701&rlz=1C1CHBF_enIN1144IN1144&sxsrf=ANbL-n6w7gIZA26JyZQeKhPYolETq-LInw:1776421951850&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOYO7RNbtnuccVYKN-LrpcBezOT9svNRBRnFBnU2m43MvtWGtPTLNItoX0wTuEM5q16pd5qr2SYHRl3tn-xQSL5lTgJGj&q=AR+Travels+Reviews&sa=X&ved=2ahUKEwiG5KS71_STAxWDkyYFHT7-E7IQ0bkNegQIKRAH&biw=1396&bih=639&dpr=1.38" 
                target="_blank"
                rel="noopener noreferrer"
-               className="inline-flex items-center justify-center bg-[#FFC107] text-[#061A33] font-bold px-8 py-3.5 rounded-full hover:bg-[#FFB300] transition-colors shadow-md"
+               className="group inline-flex items-center justify-center bg-[#FFC107] text-[#061A33] font-bold px-8 py-3.5 rounded-full hover:bg-[#FFB300] transition-all duration-300 shadow-md hover:shadow-[0_8px_30px_rgba(255,193,7,0.4)]"
              >
                Leave a Review on Google
-               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+               <svg className="w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                </svg>
              </a>
            </div>

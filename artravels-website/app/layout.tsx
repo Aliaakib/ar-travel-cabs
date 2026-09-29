@@ -5,6 +5,7 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import FloatingIcons from "../components/layout/FloatingIcons";
 import RouteScroller from "../components/layout/RouteScroller";
+import PageTransition from "../components/layout/PageTransition";
 
 const manrope = Manrope({
   variable: "--font-sans",
@@ -34,7 +35,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-full flex flex-col font-sans">
         <Navbar />
-        <main className="flex-grow flex flex-col">{children}</main>
+        <main className="flex-grow flex flex-col">
+          <PageTransition>{children}</PageTransition>
+        </main>
         <Footer />
         <FloatingIcons />
         <RouteScroller />

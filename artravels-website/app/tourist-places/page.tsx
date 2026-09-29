@@ -74,8 +74,12 @@ export default function TouristPlaces() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {places.map((place) => (
-            <div key={place.id} className="group bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col border border-gray-100">
+          {places.map((place, idx) => (
+            <div 
+              key={place.id} 
+              className="group bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col border border-gray-100 animate-stagger"
+              style={{ animationDelay: `${idx * 100}ms` }}
+            >
               <div className="relative aspect-square w-full overflow-hidden">
                 <Image
                   src={place.image}
@@ -104,10 +108,10 @@ export default function TouristPlaces() {
                   href={`https://wa.me/916351794714?text=${encodeURIComponent(`Hello AR Travel Cabs,\nI am interested in booking a tour for *${place.title}* (${place.location}).\nPrice mentioned: ₹${place.price}/Person.\nPlease provide me with more details.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full bg-[#FFC107] hover:bg-[#e0a800] transition-colors text-[#061A33] font-bold text-center py-3 rounded-lg flex items-center justify-center gap-2"
+                  className="group block w-full bg-[#FFC107] hover:bg-[#FFB300] hover:shadow-[0_8px_20px_rgba(255,193,7,0.4)] transition-all duration-300 text-[#061A33] font-bold text-center py-3 rounded-lg flex items-center justify-center gap-2"
                 >
                   Book Now
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </a>
