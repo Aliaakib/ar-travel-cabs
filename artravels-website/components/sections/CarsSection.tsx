@@ -55,7 +55,7 @@ const carsData = [
     details: [
       { label: "Seating Capacity", value: "7 + 1 Seats" },
       { label: "Comfort Level", value: "Premium" },
-      { label: "Rate Per Km", value: "₹15.00" }
+      { label: "Rate Per Km", value: "₹18.00" }
     ],
     isPopular: true
   }
