@@ -31,7 +31,7 @@ export default function ServicesSection() {
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
               <img 
-                src="https://images.pexels.com/photos/3786091/pexels-photo-3786091.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="/service/airpot.png" 
                 alt="Airport Transfers" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" 
               />
@@ -58,7 +58,7 @@ export default function ServicesSection() {
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
               <img 
-                src="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="/service/cityride.png" 
                 alt="City Rides" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" 
               />
@@ -85,7 +85,7 @@ export default function ServicesSection() {
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
               <img 
-                src="https://images.pexels.com/photos/7144186/pexels-photo-7144186.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="/service/premiumtransport.png" 
                 alt="Premium Transport" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" 
               />

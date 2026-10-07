@@ -147,7 +147,7 @@ export default function FloatingIcons() {
         )}
 
         {/* Book Now Button Floating */}
-        {pathname !== "/packages" && pathname !== "/tourist-places" && pathname !== "/reviews" && (
+        {pathname !== "/packages" && pathname !== "/tourist-places" && pathname !== "/reviews" && pathname !== "/one-way-trip" && (
           <button 
             onClick={() => setIsPopupOpen(!isPopupOpen)}
             className="px-6 py-4 bg-[#FFC107]/90 backdrop-blur-md rounded-full flex items-center justify-center text-gray-900 font-bold shadow-[0_4px_12px_rgba(255,193,7,0.4)] hover:bg-[#FFC107] hover:shadow-[0_12px_40px_rgba(255,193,7,0.7)] hover:scale-110 transition-all duration-300 uppercase tracking-wide"

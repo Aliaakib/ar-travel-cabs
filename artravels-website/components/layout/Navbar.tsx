@@ -73,6 +73,7 @@ export default function Navbar() {
             <Link href="/" className={`${pathname === '/' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Home</Link>
             {/* <Link href="/services" className={`${pathname === '/services' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors flex items-center gap-1`}>Services</Link> */}
             <Link href="/tourist-places" className={`${pathname === '/tourist-places' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Tourist Places</Link>
+            <Link href="/onewaytrip" className={`${pathname === '/one-way-trip' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>One Way Trip</Link>
             <Link href="/booking" className={`${pathname === '/booking' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Booking</Link>
             <Link href="/cars" className={`${pathname === '/cars' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Cars</Link>
             <Link href="/packages" className={`${pathname === '/packages' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors`}>Packages</Link>
@@ -104,6 +105,7 @@ export default function Navbar() {
               <Link href="/" className={`${pathname === '/' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
               {/* <Link href="/services" className={`${pathname === '/services' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Services</Link> */}
               <Link href="/tourist-places" className={`${pathname === '/tourist-places' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Tourist Places</Link>
+              <Link href="/onewaytrip" className={`${pathname === '/one-way-trip' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>One Way Trip</Link>
               <Link href="/booking" className={`${pathname === '/booking' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Booking</Link>
               <Link href="/cars" className={`${pathname === '/cars' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Cars</Link>
               <Link href="/packages" className={`${pathname === '/packages' ? 'text-[#FFC107]' : ''} hover:text-[#FFC107] transition-colors p-2`} onClick={() => setIsMobileMenuOpen(false)}>Packages</Link>
